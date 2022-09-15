@@ -1,0 +1,124 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    /* line-height: 1.6; */
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.image-normal {
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card { 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    /* height: auto; */
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    /* text-align: center; */
+    /* padding: 2em; */
+    border-radius: 10px;
+}
+
+.product-review {
+   
+    margin-bottom: 30px; 
+    
+}
+
+.item-label {
+    font-family: 'Montserrat' , sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.item-brand {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1;
+    padding-left: 30px;
+}
+
+.item-description {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.item-price {
+    font-family:'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: xxx-large;
+    margin-top: auto;
+    padding-left: 30px;
+}
+
+.item-discount {
+    font-family:'Montserrat' , sans-serif;
+    text-decoration: line-through;  
+    margin-left: 30px;
+    /* padding-top: 10px;  */
+}
+
+.prices {
+    display: flex;
+    line-height: .5;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: auto;
+  }
+.buy-button {
+    text-align: center;
+}
+button {
+    width:75%;
+    background: none;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    padding-left: 30px; 
+}
+ 
+
+@media (min-width: 475px) {
+    .card {
+        flex-direction: row;
+    }
+    .image-normal {
+        src:url(/assets/images/image-product-desktop.jpg)
+    }
+}

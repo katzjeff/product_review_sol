@@ -1,0 +1,97 @@
+
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* 
+:root {
+    /* primary colors 
+    --clr-dark-cyan: 158, 36%, 37%;
+    --clr-cream: 30, 38%, 92%;
+
+    /* neutral colors 
+    --clr-dark-blue: 12, 21%, 14%;
+    --clr-grayish-blue: 228, 12%, 48%;
+    --clr-white: 0,0%, 100%;
+    
+    /* font-sizes 
+    --fs-200: 0.875rem;
+    
+    /* font-families 
+    --ff-fraunces: "Franunces", serif;
+    --ff-montserrat: "Montserrat", sans-serif;
+    /* --ff-sans-normal: "Barlow", sans-serif; 
+} */
+/* Reset page */
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body {
+    display: grid;
+    min-height: 80vh;
+    place-items: center; 
+    line-height: 1.6;
+}
+
+.card-main {
+    box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+.image-normal {
+    width: 50%;
+    height: 50%;
+}
+
+/* colors */
+/* .bg-cream {background-color: hsl( var(--clr-cream) );}
+.bg-white { background-color: hsl( var(--clr-white));}
+.bg-dark-blue { background-color: hsl( var(--clr-dark-blue));}
+.bg-grayish-blue { background-color: hsl( var(--clr-grayish-blue));}
+.bg-dark { background-color: hsl(var(--clr-dark-cyan));} */
+
+/* text colors */
+/* .text-dark { color: hsl( var(--clr-dark-blue));}
+.text-white { color: hsl( var(--clr-white));} */
+
+
+/* letter spacing */
+/* .letter-spacing-1 { letter-spacing: 4.75px; } 
+.letter-spacing-2 { letter-spacing: 2.7px; } 
+.letter-spacing-3 { letter-spacing: 2.35px; }  */
+
+/* .uppercase { text-transform: uppercase; }
+.strikethrough { text-decoration: line-through;}
+
+.line-spacing { line-height: 1.2;} */
+
+
+/* components */
+/* .buy {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    padding: 0 2em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: hsl( var(--clr-white)) ;
+    background-color: hsl(var(--clr-dark-cyan));
+}
+
+.buy:hover::after,
+.buy:focus::after {
+    opacity: 1;
+    transform: scale(1.5);
+    ;
+} */
+
+
+
+
+
