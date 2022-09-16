@@ -18,8 +18,14 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    overflow: auto;
+}
+
 .image-normal {
-    width:100%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
 }
@@ -28,7 +34,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     width: 50%;
     /* height: auto; */
-    max-width: 1440px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     background: white;
@@ -39,9 +45,7 @@ body {
 }
 
 .product-review {
-   
-    margin-bottom: 30px; 
-    
+    margin-bottom: 30px;   
 }
 
 .item-label {
@@ -50,7 +54,7 @@ body {
     letter-spacing: 5px;
     font-size: 14px;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 20px;
     margin-top: 30px;
 }
 
@@ -59,7 +63,7 @@ body {
     font-weight: 700;
     font-size: 35px;
     line-height: 1;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .item-description {
@@ -67,54 +71,64 @@ body {
     font-size: 14px;
     line-height: 2;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .item-price {
     font-family:'Fraunces', sans-serif;
     font-weight: 700;
     font-size: xxx-large;
-    margin-top: auto;
-    padding-left: 30px;
+    margin: 10px;
+    padding-left: 20px;
 }
 
 .item-discount {
     font-family:'Montserrat' , sans-serif;
     text-decoration: line-through;  
-    margin-left: 30px;
-    /* padding-top: 10px;  */
+    margin-left: auto;
+    padding-left: 20px;
 }
 
 .prices {
     display: flex;
     line-height: .5;
+    padding-bottom: 20px;
 }
 
 .button {
-    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    height: 50px;
+    /* width:100%; */
+    padding: 10px;
+    background: hsl(158, 36%, 37%);
     border: none;
-    color: hsl(0, 0%, 100%);
-    padding: 15px 32px;
-    text-decoration: none;
     border-radius: 5px;
-    font-size: 14px;
-    cursor: auto;
-  }
-.buy-button {
-    text-align: center;
-}
-button {
-    width:75%;
-    background: none;
-    border: none;
-    color: hsl(0, 0%, 100%);
+    overflow: hidden;
     font-family: 'Montserrat' , sans-serif;
-    font-weight: 700;
-    padding-left: 30px; 
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: auto;
 }
- 
 
-@media (min-width: 475px) {
+
+.button-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.button-icon {
+  font-size: 1.2em;
+} 
+
+@media (min-width: 600px) {
     .card {
         flex-direction: row;
     }
